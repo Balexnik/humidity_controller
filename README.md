@@ -45,5 +45,5 @@ E(t)= E0 * exp(a * t / (β - t))
 * https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BB%D0%B0%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C
 * https://planetcalc.ru/246/
 * http://cires1.colorado.edu/~voemel/vp.html - различные формулы для вычисления давления пара 
-* https://journals.ametsoc.org/doi/pdf/10.1175/1520-0450%281981%29020%3C1527%3ANEFCVP%3E2.0.CO%3B2
-* https://dpva.ru/Guide/GuidePhysics/Humidity/SaturatedOverWater/
+* https://journals.ametsoc.org/doi/pdf/10.1175/1520-0450%281981%29020%3C1527%3ANEFCVP%3E2.0.CO%3B2 - уравнения для расчета давления нассыщенного пара Ардена Бака
+* https://dpva.ru/Guide/GuidePhysics/Humidity/SaturatedOverWater/ - Давление насыщенных водяных паров над поверхностью воды в зависимости от температур (-40/+40)
