@@ -28,6 +28,8 @@ class PsychrometricAlgorithm
       const double a = 17.5043;
       const double b = 241.2;
       float pressure = E * exp(abs(a * t / (b + t)));
+      //Goff–Gratch 
+      //float pressure = log(2.8365*1000/t*t-6.0280*1000/t+1.9542*10-2.7378*t/100+1.6261*t*t/100000+7.0229*t*t*t/10000000000-1.8680*t*t*t*t/10000000000000+2.7150*log(t));
       return pressure;
     }
 };
