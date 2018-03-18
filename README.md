@@ -30,13 +30,13 @@ e = E(t_w) - A * P * (t_d - t_w) * (1 + a * t_w)
 **Давление насыщения** при температуре t (упрощенная формула с относительной погрешностью ~0.1%)
 
 ```
-E(t)= E0 * exp(a * t / (B - t))
+E(t)= E0 * exp(a * t / (β - t))
 ```
 
 где
 * E0 - 6.1121 гПа
 * a - 17.5043
-* b - β = 241.2 °C 
+* β = 241.2 °C 
 
 
 
@@ -44,3 +44,4 @@ E(t)= E0 * exp(a * t / (B - t))
 * http://www.vbrspb.ru/files/20131211-143614_529808899.PDF
 * https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BB%D0%B0%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C
 * https://planetcalc.ru/246/
+* https://journals.ametsoc.org/doi/pdf/10.1175/1520-0450%281981%29020%3C1527%3ANEFCVP%3E2.0.CO%3B2
